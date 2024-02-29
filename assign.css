@@ -1,0 +1,79 @@
+h3{
+letter-spacing: var(#0b64a4);
+}
+img {
+    margin-bottom:20px;
+    border-radius: 10px;
+}
+.section-b{
+    margin-bottom:3rem;
+    text-align: justify;
+
+}
+.time{ background:white;
+    color:rgb(15, 1, 1);
+    margin-right: 10px ;
+
+    width: 8rem;
+ 
+    display:flex;
+    flex-direction: column;
+    place-items:center ;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px ;
+    width: 8rem;
+    text-align:center;
+    justify-content: center;
+    height: 8rem;
+    grid-template-columns:1fr 1fr; 
+    margin-bottom: 5px;
+}
+p{
+    text-align:justify ;
+    place-content:initial;
+    color:gainsboro;
+}
+body{
+    background-color:rgb(218, 12, 12);
+    margin-top:20px;
+    padding: auto;
+
+
+
+}
+h2{
+    color: aqua;
+ font-size:xx-large;
+ font-style: initial;
+ font-family: 'Times New Roman', Times, serif;
+ display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+.box{display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:20px ;
+    align-items:center;
+    justify-content: center;
+place-items: center;}
+span{
+    display:flex;
+    flex-direction: column;
+     text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width:992px){
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items:center;
+        gap:3rem;
+    }
+}
+
